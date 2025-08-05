@@ -1,0 +1,12 @@
+{
+  "module_name": "huggingface-discovery-python",
+  "namespace": "etais-org",
+  "language": "python",
+  "resource_type": "service",
+  "resource_subtype": "generic",
+  "model_name": "huggingface-discovery-python",
+  "enable_cloud_build": true,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2025-08-04T20:58:54.704537Z"
+}

@@ -1,0 +1,5 @@
+
+viam-sdk[mlmodel]==0.51.0
+
+typing-extensions
+huggingface_hub

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "etais-org:huggingface-discovery-python",
+  "visibility": "private",
+  "url": "https://github.com/viam-modules/huggingface-discovery-service",
+  "description": "Modular generic service: huggingface-discovery-python",
+  "models": [
+    {
+      "api": "rdk:service:generic",
+      "model": "etais-org:huggingface-discovery-python:huggingface-discovery-python",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-etais-orghuggingface-discovery-pythonhuggingface-discovery-python"
+    }
+  ],
+  "applications": null,
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64"
+    ]
+  }
+}
