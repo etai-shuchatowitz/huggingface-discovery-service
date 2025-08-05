@@ -1,15 +1,15 @@
 {
   "$schema": "https://dl.viam.dev/module.schema.json",
-  "module_id": "etais-org:huggingface-discovery-python",
+  "module_id": "etais-org:huggingface-discovery",
   "visibility": "private",
   "url": "https://github.com/etai-shuchatowitz/huggingface-discovery-service",
-  "description": "Modular generic service: huggingface-discovery-python",
+  "description": "Modular generic service: huggingface-discovery",
   "models": [
     {
       "api": "rdk:service:generic",
-      "model": "etais-org:huggingface-discovery-python:huggingface-discovery-python",
-      "short_description": "Provide a short (100 characters or less) description of this model here",
-      "markdown_link": "README.md#model-etais-orghuggingface-discovery-pythonhuggingface-discovery-python"
+      "model": "etais-org:huggingface-discovery-python:huggingface-discovery",
+      "short_description": "download h5, pytorch or safetensor models from huggingface",
+      "markdown_link": "README.md#model-etais-orghuggingface-discovery-pythonhuggingface-discovery"
     }
   ],
   "applications": null,
