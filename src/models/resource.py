@@ -21,7 +21,7 @@ HOME_DIR = str(Path.home())
 
 
 class HuggingfaceDiscoveryPython(Generic, EasyResource):
-    MODEL: ClassVar[Model] = "etais-org:huggingface-discovery-python:huggingface-discovery-python"
+    MODEL: ClassVar[Model] = "etais-org:huggingface-discovery:huggingface-discovery"
 
     @classmethod
     def new(cls, config: ComponentConfig, dependencies: Mapping[ResourceName, ResourceBase]) -> Self:

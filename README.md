@@ -2,7 +2,7 @@
 
 Download Models from the Hugginface Repository onto your local machine.
 
-# Model etais-org:huggingface-discovery-python:huggingface-discovery-python
+# Model etais-org:huggingface-discovery:huggingface-discovery
 
 A model for downloading h5, pytorch or safetensor models from Hugging Face
 

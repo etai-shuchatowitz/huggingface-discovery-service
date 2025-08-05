@@ -7,9 +7,9 @@
   "models": [
     {
       "api": "rdk:service:generic",
-      "model": "etais-org:huggingface-discovery-python:huggingface-discovery",
+      "model": "etais-org:huggingface-discovery:huggingface-discovery",
       "short_description": "download h5, pytorch or safetensor models from huggingface",
-      "markdown_link": "README.md#model-etais-orghuggingface-discovery-pythonhuggingface-discovery"
+      "markdown_link": "README.md#model-etais-orghuggingface-discoveryhuggingface-discovery"
     }
   ],
   "applications": null,
