@@ -75,11 +75,9 @@ class HuggingfaceDiscoveryPython(Generic, EasyResource):
         else:
             config_filename = "config.json"
         if not os.path.isfile(config_filename):
-            self.logger.info(f"I am in {os.getcwd()}")
             res = hb.hf_hub_download(model_name, filename=config_filename, local_dir=self.local_dir)
             self.logger.info(f"I have downloaded config to: {res}")
         if not os.path.isfile(model_filename):
-            self.logger.info("I am downloading model...")
             res = hb.hf_hub_download(model_name, filename=model_filename, local_dir=self.local_dir)
             self.logger.info(f"I have downloaded model to: {res}")
         return

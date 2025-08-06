@@ -1,7 +1,7 @@
 {
   "$schema": "https://dl.viam.dev/module.schema.json",
   "module_id": "etais-org:huggingface-discovery",
-  "visibility": "private",
+  "visibility": "public",
   "url": "https://github.com/etai-shuchatowitz/huggingface-discovery-service",
   "description": "Modular generic service: huggingface-discovery",
   "models": [

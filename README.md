@@ -4,7 +4,11 @@ Download Models from the Hugginface Repository onto your local machine.
 
 # Model etais-org:huggingface-discovery:huggingface-discovery
 
-A model for downloading h5, pytorch or safetensor models from Hugging Face
+A model for downloading H5, Pytorch or Safetensor models from Hugging Face.
+
+**Note**: Right now this only will download a single `.safetensors` file and so will not work with
+large models that are comprised of multiple `.safetensors`. This also downloads to local storage and
+won't clean up after itself unlike much package management.
 
 ### Configuration
 The following attribute template can be used to configure this model:
